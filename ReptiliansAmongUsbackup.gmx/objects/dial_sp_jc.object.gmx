@@ -27,9 +27,9 @@
             <kind>1</kind>
             <string>text1 = string(" I’ve been thinking - ")
 text2 = string (" Uh oh. ")
-text3 = string (" -shut up, and I’ve been thinking, how do they keep finding us everytime we get close to one of our contact? It’s infuriating. They must be tracking us somehow. ")
-text4 = string (" Not possible! Super Van cannot be tracked! Too much stealths!#Besides, if they were tracking us, why do they never attack us on the road? ")
-text5 = string (" It’s weird isn’t it. My followers think it’s dumb too. ")
+text3 = string (" -shut up, and I’ve been thinking,#how do they keep finding us everytime#we get close to one of our contact?#It’s infuriating. They must be#tracking us somehow. ")
+text4 = string (" Not possible! Super Van cannot be#tracked! Too much stealths!#Besides,#if they were tracking us, why do#they never attack us on the road? ")
+text5 = string (" It’s weird isn’t it. My followers#think it’s dumb too. ")
 
 talk = 1
 

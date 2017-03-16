@@ -11,6 +11,7 @@
   <colour>0</colour>
   <showcolour>-1</showcolour>
   <code>global.state += 1;
+global.roomhasbeen = room
 //global.state3moneygain = 125</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>

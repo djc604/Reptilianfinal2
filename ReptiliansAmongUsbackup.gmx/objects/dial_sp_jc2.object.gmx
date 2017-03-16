@@ -25,37 +25,37 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text1 = string (" Some of those Reptilians had army uniforms! We’ve gotta get out of here! ")
-text2 = string (" We’ll meet my contact, he is very well hidden. We’ll be safe with him. Its just down the street. ")
-text3 = string (" Hmm. I do not like running away. ")
-text4 = string (" Well, get used to it. We’re no match for them in an open fight, I don’t think we even hit any of them that time! ")
+            <string>text1 = string (" Some of those Reptilians had army#uniforms! We’ve gotta get out of#here! ")
+text2 = string (" We’ll meet my contact, he is very#well hidden. We’ll be safe with#him. Its just down the street. ")
+text3 = string (" Hmm. I do not like running away.")
+text4 = string (" Well, get used to it. We’re no#match for them in an open fight,#I don’t think we even hit any of them that time! ")
 text5 = string (" We’re here. *Knocks* J.C.!  ")
-text6 = string (" What the- who the hell are all of you?! Wait is that- " )
+text6 = string (" What the- who the hell are all#of you?! Wait is that- " )
 text7 = string (" Hey J.C. ")
 text8 = string (" Wha- YOU’RE SUPPOSED TO BE DEAD! ")
 text9 = string (" ...good to see you too? ")
-text10 = string (" What the hell man?!? Your family thinks you're dead!! ")
-text11 = string (" I had to make everyone believe I was dead, I didn’t want anyone I cared about getting dragged into this, not after last time. ")
+text10 = string (" What the hell man?!? Your#family thinks you're dead!! ")
+text11 = string (" I had to make everyone believe#I was dead, I didn’t want#anyone I cared about getting#dragged into this, not after#last time. ")
 text12 = string (" That’s messed up. ")
-text13 = string (" Dude, I dig the pink pants and trench coat look. ")
+text13 = string (" Dude, I dig the pink pants and#trench coat look. ")
 text14 = string (" So, why are you here? ")
-text15 = string (" You walk into a room wearing that, you’re not afraid of anything. ")
-text16 = string (" We need help breaking into the whitehouse. ")
-text17 = string (" WHAT?! You show up after being dead for five years and ask me to help you break into the whitehouse?? ")
-text18 = string ("  I feel like I’m having a low-impact moment here… ")
+text15 = string (" You walk into a room wearing#that, you’re not afraid of#anything. ")
+text16 = string (" We need help breaking into#the whitehouse. ")
+text17 = string (" WHAT?! You show up after#being dead for five years#and ask me to help you break#into the whitehouse?? ")
+text18 = string ("  I feel like I’m having#a low-impact moment here… ")
 text19 = string (" Hmm. My vodka is empty again. ")
-text20 = string (" Sooo… this might sound a little crazy, but… ")
-text21 = string (" The government is lizard-people. ")
-text22 = string (" ...or just jump right into it I guess…  ")
+text20 = string (" Sooo… this might sound a#little crazy, but… ")
+text21 = string (" The government is lizard-#people. ")
+text22 = string (" ...or just jump right into#it I guess…  ")
 text23 = string (" Yea, I know about all that. ")
 text24 = string (" You do? ")
 text25 = string (" Why did you come to me? ")
-text26 = string (" Because you’re the most well-connected hacker and vigilante I know. ")
+text26 = string (" Because you’re the most#well-connected hacker and#vigilante I know. ")
 text27 = string (" Exactly. Well connected.  ")
-text28 = string (" Allow us to explain our plan to you… ")
-text29 = string (" So this Justin guy will release it all if you guys get killed. Other than that, it’s not a great plan you know. ")
-text30 = string (" You owe me for back then. I’m calling my favour now. ")
-text31 = string (" Fine. You’ve got a deal. Text this number, and the whole whitehouse will go dark. Backup generators included. ")
+text28 = string (" Allow us to explain our plan to#you… ")
+text29 = string (" So this Justin guy will release#it all if you guys get killed.#Other than that, it’s not a#great plan you know. ")
+text30 = string (" You owe me for back then. I’m#calling my favour now. ")
+text31 = string (" Fine. You’ve got a deal. Text#this number, and the whole#whitehouse will go dark. Backup#generators included. ")
 
 talk = 1
 
@@ -219,7 +219,7 @@ if (mouse_check_button_pressed(mb_left))
 }
 
 
-if (talk &gt; 5)
+if (talk &gt; 31)
 {
     instance_destroy()
 }
@@ -313,7 +313,7 @@ if (talk = 10)
 if (talk = 11)
 {
     draw_sprite (spr_textbox,2,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-150, out)
 }
 
 if (talk = 12)
@@ -419,7 +419,7 @@ if (talk = 28)
 }
 if (talk = 29)
 {
-    draw_sprite (spr_textbox,0,view_xview[0],view_yview[0]+600)
+    draw_sprite (spr_textbox,8,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
 }
 

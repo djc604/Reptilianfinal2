@@ -53,6 +53,7 @@
   <instances>
     <instance objName="obj_overworld" x="1184" y="608" name="inst_61D4CCEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gasbuy" x="373" y="352" name="inst_BDE3807E" locked="0" code="" scaleX="0.7734375" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="psa_fuel" x="160" y="448" name="inst_AAA74D6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

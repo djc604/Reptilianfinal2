@@ -140,6 +140,7 @@
     <background>background\bg_intro_farback</background>
     <background>background\bg_intro_background</background>
     <background>background\bg_intro_foreground</background>
+    <background>background\bg_ovaloffice</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -155,8 +156,13 @@
   <fonts name="fonts">
     <font>fonts\fnt</font>
     <font>fonts\font1</font>
+    <font>fonts\font3</font>
   </fonts>
   <objects name="objects">
+    <objects name="PSA">
+      <object>objects\psa_usmap</object>
+      <object>objects\psa_fuel</object>
+    </objects>
     <objects name="Controllers">
       <object>objects\cont_travel</object>
       <object>objects\cont_battle</object>
@@ -228,6 +234,7 @@
         <object>objects\obj_remi_run</object>
         <object>objects\obj_ivanka_run</object>
       </objects>
+      <object>objects\obj_preztalk</object>
     </objects>
     <objects name="Icons">
       <object>objects\obj_fuel</object>
@@ -263,8 +270,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\USMap</room>
-    <room>rooms\Travelling2</room>
     <room>rooms\Intro</room>
+    <room>rooms\Travelling2</room>
     <room>rooms\eBattle</room>
     <room>rooms\gameover</room>
     <rooms name="Battles">

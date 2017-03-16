@@ -57,7 +57,7 @@
     <instance objName="obj_linus_run" x="1184" y="96" name="inst_35932CBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_remi_run" x="672" y="288" name="inst_49ACB735" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ivanka_run" x="1024" y="448" name="inst_6E8ED879" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="dial_sp_michaela2" x="64" y="416" name="inst_B6EB281F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="dial_sp_jc2" x="64" y="640" name="inst_8CDED559" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
