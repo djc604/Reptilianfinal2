@@ -56,6 +56,10 @@
     <instance objName="obj_ug_linus" x="499" y="211" name="inst_3E587C89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ug_remi" x="808" y="210" name="inst_1DCF87C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ug_ivanka" x="1102" y="210" name="inst_0AAAA65C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="psa_usmap" x="192" y="448" name="inst_D539A1A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="psa_usmap" x="480" y="448" name="inst_3D8F6D19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="psa_usmap" x="768" y="448" name="inst_CF1321B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="psa_usmap" x="1056" y="448" name="inst_57288E66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -61,7 +61,7 @@ global.state2moneygain = 100
     hashappened2 = true
 }
 
-global.moneygain2 = global.state2moneygain*global.rep
+//global.moneygain2 = global.state2moneygain*global.rep
 </string>
           </argument>
         </arguments>
@@ -84,7 +84,7 @@ global.moneygain2 = global.state2moneygain*global.rep
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(x,y,"You have gained $" + string(global.moneygain2))
+            <string>draw_text(x,y,"You have gained $" + string(global.gain2))
 
 </string>
           </argument>

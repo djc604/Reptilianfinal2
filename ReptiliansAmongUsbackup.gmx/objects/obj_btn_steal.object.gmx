@@ -114,16 +114,18 @@ hashappened9 = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-global.rep -= 1
-global.gas += 100;
-
-if(global.roomhasbeen=Hosp_state2){
-room_goto(Travelling_state2_S2)
-}
-else
+            <string>if(global.rep &gt; 0)
 {
-    room_goto(global.roomhasbeen)
+    global.rep -= 1
+    global.gas += 100;
+    
+    if(global.roomhasbeen=Hosp_state2){
+    room_goto(Travelling_state2_S2)
+    }
+    else
+    {
+        room_goto(global.roomhasbeen)
+    }
 }
 //if(global.roomhasbeen=Shop_state2_S2){
 //room_goto(Shop_state3)

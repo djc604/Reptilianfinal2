@@ -26,35 +26,35 @@
           <argument>
             <kind>1</kind>
             <string>text1 = string (" Linus, Dmitri, Remi and Ivanka are inside the#White House, with all lights and#security systems shut down. ")
-text2 = string ("  Equipped with night vision goggles, grappling hooks,#high tech silenced guns#and knock-out gas, they were able to make#their way to the president in a matter of#minutes, before security even#knew what was happening. ")
+text2 = string (" Equipped with night vision goggles, grappling hooks,#high tech silenced guns#and knock-out gas, they were able to make#their way to the president in a matter of#minutes, before security even#knew what was happening. ")
 text3 = string (" They now stand before the president of#the United States, guns at the ready. ")
 text4 = string (" Hello, monsieur president. I see your guards#are asleep from our knock-out gas,#but you remain awake. Why is that? ")
-text5 = string (" Haha, you caught me on a bad day, boys!#Most of my on-duty guards were humans today.#Simple creatures, you humans. Susceptible to so many things. ")
-text6 = string (" So what’s got you all so upset with me? " )
-text7 = string (" Um, do you mean besides being an alien invader infiltrating our government…? ")
-text8 = string (" Your kind….killed my whole village, because we found out the truth.#Killed my mama, my papa, my brothers, my friends.#That is why I am...how you say? Downset?  ")
-text9 = string (" UPset, actually… ")
+text5 = string (" Haha, you caught me on a bad day, boys!#Most of my on-duty guards were humans#today. Simple creatures, you humans.#Susceptible to so many things. ")
+text6 = string (" So what’s got you all so upset with me?#" )
+text7 = string (" Um, do you mean besides being an alien#invader infiltrating our government…? ")
+text8 = string (" Your kind...killed my whole village,#because we found out the truth.#Killed my mama, my papa, my brothers,#my friends. That is why I#am...how you say? Downset?  ")
+text9 = string (" Upset, actually... ")
 text10 = string (" Dude, bad timing. ")
-text11 = string (" Surely you understand that I didn’t personally do this,#just members of my race. ")
-text12 = string (" ENOUGH TALK! We are here to expose you! Ivanka! ")
-text13 = string (" You’re on camera, smile Mr. President! ")
-text14 = string (" Now show your REAL face to the camera, or we will have to kill you! ")
-text15 = string (" You guys are some slippery fish. I never would have known where you were,#if it wasn’t for Ivanka’s blog posts updating the#world on your next destination. ")
-text16 = string (" Hahaha, don’t look so shocked!#Come on, did you think I wouldn’t have#someone check your blog? ")
-text17 = string ("  IVANKAAAA!!!!! ")
+text11 = string (" Surely you understand that I didn't#personally do this,#just members of my race. ")
+text12 = string (" ENOUGH TALK! We are here to expose you!#Ivanka! ")
+text13 = string (" You're on camera, smile Mr. President! ")
+text14 = string (" Now show your REAL face to the camera,#or we will have to kill you! ")
+text15 = string (" You guys are some slippery fish. I never#would have known where you were,#if it wasn’t for Ivanka’s blog posts#updating the world on your next destination. ")
+text16 = string (" Hahaha, don’t look so shocked!#Come on,#did you think I wouldn’t have#someone check your blog? ")
+text17 = string (" IVANKAAAA!!!!! ")
 text18 = string (" Oops…. ")
 text19 = string (" Please, let’s not get unpleasant#with each other.#There’s no way you’re getting#out of here alive, so just- ")
-text20 = string (" At that very moment, there was a#loud bang, and the#President’s head exploded all#over the walls. ")
-text21 = string (" PROSCHAY, ALIEN SCUM! REVENGE IS MINE! ")
-text22 = string (" WHAT THE HELL MAN?? HE HADN’T SHOWN HIS LIZARD FACE YET! ")
+text20 = string (" At that very moment, there was a#loud bang, and the President’s#head exploded all#over the walls. ")
+text21 = string (" PROSCHAY, ALIEN SCUM!#REVENGE IS MINE! ")
+text22 = string (" WHAT THE HELL MAN??#HE HADN’T SHOWN HIS LIZARD FACE YET! ")
 text23 = string (" Also, and I probably should have#mentioned this earlier,#but I am live streaming this. ")
 text24 = string (" God damn it Ivanka! ")
 text25 = string (" Look out, Reptilian agents! ")
-text26 = string ("  Ivanka turned the camera around just#in time to catch all the White House#security guards bearing down#on them, reptilian faces in full glorious view. ")
-text27 = string ("  ")
-text28 = string (" In the ensuing firefight, the camera#didn’t catch whether our heroes were#killed or escaped, and we may never know.#But what we do know, thanks to them,#is the truth.#Now, the whole world knows….reptilians#are#among us. ")
-text29 = string (" THE END ")
+text26 = string ("  Ivanka turned the camera around just#in time to catch all the White House#security guards bearing down#on them, reptilian faces#in full glorious view. ")
+text27 = string (" In the ensuing firefight, the camera#didn’t catch whether our heroes were#killed or escaped, and we may never know.#But what we do know, thanks to them,#is the truth. Now, the whole world knows. #reptilians#are#among us. ")
+text28 = string (" THE END ")
 
+talk = 1
 
 out = string("")
 spd = 0
@@ -100,7 +100,6 @@ if (talk = 5)
 {
     out = string_copy (text5,1,spd)
 }
-
 if (talk = 6)
 {
     out = string_copy (text6,1,spd)
@@ -160,6 +159,8 @@ if (talk = 19)
 if (talk = 20)
 {
     out = string_copy (text20,1,spd)
+    with(obj_preztalk){instance_destroy()}
+    instance_create(640,448,obj_prezboom)
 }
 if (talk = 21)
 {
@@ -192,10 +193,7 @@ if (talk = 27)
 if (talk = 28)
 {
     out = string_copy (text28,1,spd)
-}
-if (talk = 29)
-{
-    out = string_copy (text29,1,spd)
+    instance_create(view_xview[0]+640,view_yview[0]+675-100,obj_restartprez)
 }
 
 
@@ -208,7 +206,7 @@ if (mouse_check_button_pressed(mb_left))
 }
 
 
-if (talk &gt; 5)
+if (talk &gt; 28)
 {
     instance_destroy()
 }
@@ -242,19 +240,19 @@ draw_set_halign(fa_left)
 if (talk = 1)
 {
     draw_sprite (spr_textbox,0,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+50,view_yview[0]+675-100, out)
 }
 
 if (talk = 2)
 {
     draw_sprite (spr_textbox,0,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+50,view_yview[0]+675-150, out)
 }
 
 if (talk = 3)
 {
     draw_sprite (spr_textbox,0,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+50,view_yview[0]+675-100, out)
 }
 
 if (talk = 4)
@@ -356,7 +354,7 @@ if (talk = 19)
 if (talk = 20)
 {
     draw_sprite (spr_textbox,0,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+125,view_yview[0]+675-125, out)
 }
 
 if (talk = 21)
@@ -392,24 +390,19 @@ if (talk = 25)
 if (talk = 26)
 {
     draw_sprite (spr_textbox,0,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+125,view_yview[0]+675-125, out)
 }
 
 if (talk = 27)
 {
     draw_sprite (spr_textbox,0,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+125,view_yview[0]+675-165, out)
 }
 
 if (talk = 28)
 {
     draw_sprite (spr_textbox,0,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
-}
-if (talk = 29)
-{
-    draw_sprite (spr_textbox,0,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+125,view_yview[0]+675-125, out)
 }
 
 

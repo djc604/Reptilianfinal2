@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\bg_music</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\WalkingFront_spr</sprite>
     <sprite>sprites\Walking_Right_spr</sprite>
@@ -122,6 +124,7 @@
     <sprite>sprites\spr_hospbutton</sprite>
     <sprite>sprites\spr_prez_boom1</sprite>
     <sprite>sprites\spr_prez_boom2</sprite>
+    <sprite>sprites\spr_eagle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\US</background>
@@ -141,6 +144,7 @@
     <background>background\bg_intro_background</background>
     <background>background\bg_intro_foreground</background>
     <background>background\bg_ovaloffice</background>
+    <background>background\bg_convention</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -162,6 +166,9 @@
     <objects name="PSA">
       <object>objects\psa_usmap</object>
       <object>objects\psa_fuel</object>
+      <object>objects\psa_500</object>
+      <object>objects\psa_ebattlesteal</object>
+      <object>objects\psa_ebattlefight</object>
     </objects>
     <objects name="Controllers">
       <object>objects\cont_travel</object>
@@ -218,6 +225,7 @@
       <object>objects\obj_btn_fight</object>
       <object>objects\obj_intro_out</object>
       <object>objects\obj_btn_restart</object>
+      <object>objects\obj_restartprez</object>
     </objects>
     <object>objects\obj_car</object>
     <object>objects\obj_city</object>
@@ -225,9 +233,13 @@
     <object>objects\obj_spawner</object>
     <objects name="Characters">
       <object>objects\obj_demi</object>
+      <object>objects\obj_intdemi</object>
       <object>objects\obj_linus</object>
+      <object>objects\obj_intlinus</object>
       <object>objects\obj_remi</object>
+      <object>objects\obj_intremi</object>
       <object>objects\obj_ivanka</object>
+      <object>objects\obj_intivanka</object>
       <objects name="Running">
         <object>objects\obj_demi_run</object>
         <object>objects\obj_linus_run</object>
@@ -235,6 +247,7 @@
         <object>objects\obj_ivanka_run</object>
       </objects>
       <object>objects\obj_preztalk</object>
+      <object>objects\obj_prezboom</object>
     </objects>
     <objects name="Icons">
       <object>objects\obj_fuel</object>
@@ -255,6 +268,9 @@
       <object>objects\dial_stat3</object>
       <object>objects\dial_sp_damon</object>
       <object>objects\dial_sp_damon2</object>
+      <objects name="lose">
+        <object>objects\dial_lose</object>
+      </objects>
       <object>objects\dial_sp_justin</object>
       <object>objects\dial_sp_justin2</object>
       <object>objects\dial_sp_michaela</object>
@@ -267,11 +283,12 @@
     </objects>
     <object>objects\obj_HUD</object>
     <object>objects\obj_HUDhalf</object>
+    <object>objects\obj_eagle</object>
+    <object>objects\obj_sound</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\USMap</room>
     <room>rooms\Intro</room>
-    <room>rooms\Travelling2</room>
+    <room>rooms\USMap</room>
     <room>rooms\eBattle</room>
     <room>rooms\gameover</room>
     <rooms name="Battles">

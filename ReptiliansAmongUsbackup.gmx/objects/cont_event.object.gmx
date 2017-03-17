@@ -29,12 +29,12 @@
 hashappened = false
 
 moneygain = 0
-moneygain2 = 0
-moneygain3 = 0
+//moneygain2 = 0
+//moneygain3 = 0
 
 global.state1moneygain = 75
-global.state2moneygain = 100
-global.state3moneygain = 125
+//global.state2moneygain = 100
+//global.state3moneygain = 125
 
 global.gain = 0;
 </string>
@@ -90,11 +90,10 @@ global.gain = 0;
           <argument>
             <kind>1</kind>
             <string>if(room=Event_state1){
-//moneygain = global.state1moneygain*global.rep
 draw_text(x,y,"You have gained $" + string(global.gain))
 }
 
-if(room=Event_state2){
+/*if(room=Event_state2){
 moneygain2 = global.state2moneygain*global.rep
 draw_text(x,y,"You have gained $" + string(moneygain2))
 }

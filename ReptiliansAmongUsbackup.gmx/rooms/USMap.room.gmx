@@ -75,11 +75,11 @@
     <instance objName="obj_remi" x="736" y="672" name="inst_0B97530F" locked="0" code="" scaleX="0.833333313465118" scaleY="0.766666650772095" colour="4294967295" rotation="0"/>
     <instance objName="cont_UI_gas" x="64" y="86" name="inst_55C4C98E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cont_UI_money" x="64" y="32" name="inst_AC04604B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ivanka" x="931" y="675" name="inst_C7FF0522" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_DayCounter" x="1088" y="96" name="inst_78210BF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_JC" x="1504" y="480" name="inst_178DF457" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cont_UI_rep" x="134" y="147" name="inst_A7168BCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="psa_usmap" x="512" y="1152" name="inst_0C4B5FE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ivanka" x="931" y="675" name="inst_A1D59ED1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

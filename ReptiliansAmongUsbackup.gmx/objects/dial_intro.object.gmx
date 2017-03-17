@@ -25,23 +25,23 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text1 = string ("It is the year 2024 in Great America. It is a time of strife in the world. Leaders are increasingly corrupt and evil, and the average joe struggles to survive")
-text2 = string ("In the shadows, an evil organization plots it’s final rise to ultimate power. For hundreds of years, these individuals have slowly infiltrated and taken over top positions in every aspect of human society")
-text3 = string ("Who are these shadowy evil-doers? The rich and powerful? Perhaps the illuminati? The Freemasons?")
+            <string>text1 = string ("It is the year 2024 in Great America. It is a time of strife in the world. Leaders are#increasingly corrupt and evil, and the average joe struggles to survive")
+text2 = string ("In the shadows, an evil organization plots it’s final rise to ultimate power. For#hundreds of years, these individuals have slowly infiltrated and taken over#top positions in every aspect of human society")
+text3 = string ("Who are these shadowy evil-doers? The rich and powerful? Perhaps the#illuminati? The Freemasons?")
 text4 = string ("No. These infiltrators, these invaders from a distant world, are known as....")
 text5 = string ("Reptilians.")
 text6 = string ("And they are among us.")
-text7 = string ("Four brave heroes will set out to uncover this conspiracy and prove that the president of the United States is in fact a Reptilian:")
-text8 = string ("Dmitri, a gun-enthusiast survivalist from Russia that believes that war with the Reptilians is the only option…")
-text9 = string ("Remi, a conspiracy theorist and historian from France, driven out for trying to uncover his government...")
-text10 = string ("Linus, a Canadian tech developer and hacker; and Ivanka, a reporter and blogger whose mother works for the government.")
-text11 = string ("These four heroes will either reveal the president’s true identity, or be killed by reptilian agents.")
+text7 = string ("Four brave heroes will set out to uncover this conspiracy and prove that the#president of the United States is in fact a Reptilian:")
+text8 = string ("Dmitri, a gun-enthusiast survivalist from Russia that believes that war with the#Reptilians is the only option…")
+text9 = string ("Remi, a conspiracy theorist and historian from France, driven out for trying to#uncover his government...")
+text10 = string ("Linus, a Canadian tech developer and hacker; and Ivanka, a reporter and blogger#whose mother works for the government.")
+text11 = string ("These four heroes will either reveal the president’s true identity, or be killed#by reptilian agents.")
 text12 = string ("WELCOME COMRADES, TO MY GARAGE!")
 text13 = string ("Ahh what a...lovely garage")
-text14 = string ("Please tell me I didn’t drive halfway across California to see your garage. You told us you had something very important.")
-text15 = string ("Patience comrade, patience! Come inside, I show you SUPER VAN!")
-text16 = string ("*Sighs* Oh good. A van. Are you serious? How is a VAN going to help us get to the president??")
-text17 = string ("This is no ordinary van! Super van has armor plating, satellite and scanner jamming technology so we can not be tracked, weapons locker, anti-pursuit weapons including caltrops and oil, and all thumbprint and retina activated for maximum security!")
+text14 = string ("Please tell me I didn’t drive halfway across#California to see your garage. You told#us you had something very important.")
+text15 = string ("Patience comrade, patience! Come inside, I#show you SUPER VAN!")
+text16 = string ("*Sighs* Oh good. A van. Are you serious?#Howis a VAN going to help us get to the#president??")
+text17 = string ("This is no ordinary van! Super van has#armor plating, satellite and scanner jamming#technology so we can not be tracked, weapons#locker, anti-pursuit weapons including#caltrops and oil, and all thumbprint#and retina activated for maximum security!")
 text18 = string ("That’s actually pretty bad-ass. Let’s do this!")
 
 talk = 1
@@ -184,7 +184,7 @@ if (talk &gt; 18)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fnt)
+            <string>draw_set_font(font1)
 draw_set_color(c_white)
 draw_set_valign(fa_top)
 draw_set_halign(fa_left)
@@ -192,66 +192,79 @@ draw_set_halign(fa_left)
 if (talk = 1)
 {
     draw_sprite (spr_txtboxintro,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+10,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+10,view_yview[0]+675-125, out)
 }
 
 if (talk = 2)
 {
     draw_sprite (spr_txtboxintro,2,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+10,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+10,view_yview[0]+675-125, out)
 }
 
 if (talk = 3)
 {
     draw_sprite (spr_txtboxintro,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+10,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+10,view_yview[0]+675-125, out)
 }
 
 if (talk = 4)
 {
     draw_sprite (spr_txtboxintro,2,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+10,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+10,view_yview[0]+675-125, out)
 }
 
 if (talk = 5)
 {
     draw_sprite (spr_txtboxintro,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+10,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+10,view_yview[0]+675-125, out)
 }
 if (talk = 6)
 {
     draw_sprite (spr_txtboxintro,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+10,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+10,view_yview[0]+675-125, out)
 }
 if (talk = 7)
 {
     draw_sprite (spr_txtboxintro,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+10,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+10,view_yview[0]+675-125, out)
 }
 if (talk = 8)
 {
     draw_sprite (spr_txtboxintro,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+10,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+10,view_yview[0]+675-125, out)
+    instance_create(view_xview[0]+672,view_yview[0]+384, obj_intdemi)
 }
 if (talk = 9)
 {
     draw_sprite (spr_txtboxintro,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+10,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+10,view_yview[0]+675-125, out)
+    with(obj_intdemi){instance_destroy()};
+    instance_create(view_xview[0]+672,view_yview[0]+384, obj_intremi)
 }
 if (talk = 10)
 {
     draw_sprite (spr_txtboxintro,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+10,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+10,view_yview[0]+675-125, out)
+    with(obj_intremi){instance_destroy()};
+    instance_create(view_xview[0]+576,view_yview[0]+384, obj_intlinus)
+    instance_create(view_xview[0]+768,view_yview[0]+384, obj_intivanka)
 }
 if (talk = 11)
 {
     draw_sprite (spr_txtboxintro,3,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+10,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+10,view_yview[0]+675-125, out)
+    instance_create(view_xview[0]+960,view_yview[0]+384, obj_intremi)
+    instance_create(view_xview[0]+384,view_yview[0]+384, obj_intdemi)
 }
+draw_set_font(fnt)
 if (talk = 12)
 {
     draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
     draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+    with(obj_intdemi){instance_destroy()};
+    with(obj_intremi){instance_destroy()};
+    with(obj_intlinus){instance_destroy()};
+    with(obj_intivanka){instance_destroy()};
 }
 if (talk = 13)
 {
@@ -276,7 +289,7 @@ if (talk = 16)
 if (talk = 17)
 {
     draw_sprite (spr_textbox,1,view_xview[0],view_yview[0]+600)
-    draw_text (view_xview[0]+150,view_yview[0]+675-100, out)
+    draw_text (view_xview[0]+150,view_yview[0]+675-150, out)
 }
 if (talk = 18)
 {

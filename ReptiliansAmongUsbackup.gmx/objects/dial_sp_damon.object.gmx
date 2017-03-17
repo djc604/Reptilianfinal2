@@ -30,7 +30,7 @@ text2 = string ("Well, da. It is quite slow… and uses#twenty times the fuel of
 text3 = string ("Twenty times?! Mon Dieu, we’re going#to have to find some serious income here!")
 text4 = string ("I’m setting up some public events for#us. People can donate and we tell them all#about the truth, all about Reptilians.#As long as we have a good reputation,#I’m sure lots of people#will show up and donate!")
 text5 = string (" Excellent, comrade! Well done! ")
-text6 = string (" We should stop at Reno while we go#through Nevada. My...comrade Damon lives here, he can help us learn more about the Reptilians. ")
+text6 = string (" We should stop at Reno while we go#through Nevada. My...comrade Damon#lives here, he can help us learn#more about the Reptilians. ")
 text7 = string (" Oui, and why is that? ")
 text8 = string (" He has...connections. ")
 text9 = string (" We shouldn’t make too many pit-stops,#speed is kind of important here okay guys? ")
@@ -86,27 +86,27 @@ if (talk = 5)
 
 if (talk = 6)
 {
-    out = string_copy (text5,1,spd)
+    out = string_copy (text6,1,spd)
 }
 if (talk = 7)
 {
-    out = string_copy (text5,1,spd)
+    out = string_copy (text7,1,spd)
 }
 if (talk = 8)
 {
-    out = string_copy (text5,1,spd)
+    out = string_copy (text8,1,spd)
 }
 if (talk = 9)
 {
-    out = string_copy (text5,1,spd)
+    out = string_copy (text9,1,spd)
 }
 if (talk = 10)
 {
-    out = string_copy (text5,1,spd)
+    out = string_copy (text10,1,spd)
 }
 if (talk = 11)
 {
-    out = string_copy (text5,1,spd)
+    out = string_copy (text11,1,spd)
 }
 
 

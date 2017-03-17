@@ -125,8 +125,8 @@ damagetaken4 = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.money += 300
-global.gas += 150
+            <string>global.money += 2000
+global.gas += 200
 
 global.mindamage = irandom_range(0,10)
 global.maxdamage = irandom_range(30,50)

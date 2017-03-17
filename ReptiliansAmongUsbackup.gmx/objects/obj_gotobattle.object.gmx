@@ -126,7 +126,7 @@ damagetaken4 = 0
           <argument>
             <kind>1</kind>
             <string>global.mindamage = irandom_range(0,10)
-global.maxdamage = irandom_range(30,50)
+global.maxdamage = irandom_range(20,50)
 
 damagetaken1 = irandom_range(global.mindamage,global.maxdamage)
 damagetaken2 = irandom_range(global.mindamage,global.maxdamage)

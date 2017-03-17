@@ -109,8 +109,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.state += 1;
-if (global.gas &lt;= 0){
+            <string>if (global.gas &lt;= 0){
 room_goto(eBattle)
 }
 else
