@@ -54,7 +54,7 @@ global.gu = 0;
             <string>draw_set_font(fnt);
 
 if(room = Travelling_state1_E) || (room = Travelling_state1_S2) || (room = Travelling_state1_S)|| (room = Travelling_state1_H) || (room = Travelling_state2_F) || (room = Travelling_state2_H) || (room = Travelling_state2_S2) || (room = Travelling_state2_E) || (room = Travelling_state3_E) || (room = Travelling_state3_H) || (room = Travelling_state3_S) || (room = Travelling_state3_F) || (room = Travelling_battle1) || (room = Travelling_battle2){
-draw_text(x,y, "You have lost " + string(global.gasuse) + " gas");
+draw_text(x,y, "You have used " + string(global.gasuse) + " gas");
 }
 </string>
           </argument>
